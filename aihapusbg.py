@@ -8,7 +8,7 @@ import threading
 class BackgroundRemoverApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Background Removes")
+        self.root.title("Background Remover")
         self.root.geometry("800x600")
         
         # Variabel untuk menyimpan path gambar
